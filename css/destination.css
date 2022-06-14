@@ -1,0 +1,234 @@
+* {
+  display: fit-content;
+}
+body {
+  background-image: url("../assets/destination/background-destination-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.container-top {
+  background-color: rgb(128, 128, 128, 0.1);
+  display: inline;
+  float: right;
+  height: 96px;
+  width: 55%;
+  backdrop-filter: blur(10px);
+  margin-top: 0.5%;
+}
+#nav-bar ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: 1.6rem;
+  margin-top: 30px;
+  margin-left: 10%;
+  color: white;
+}
+
+#nav-bar li {
+  display: inline-block;
+  width: auto;
+  padding-left: 15px;
+  height: 63px;
+  border-width: 5px;
+  border-radius: 5px;
+}
+#nav-bar strong {
+  font-size: 1.7rem;
+  padding: 10px;
+  color: white;
+}
+.container-top li:hover {
+  border-bottom: 1px solid;
+  color: rgb(128, 128, 128, 0.8);
+}
+#nav-bar .active {
+  border-bottom: 1px solid;
+  border-color: white;
+  border-width: 5px;
+  border-radius: 5px;
+}
+#nav-bar a {
+  text-decoration: none;
+  color: white;
+  padding-right: 40px;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 28px;
+}
+
+#nav-bar-hr {
+  width: 30%;
+  position: absolute;
+  margin-top: 3%;
+  margin-left: 18.5%;
+  border-color: rgb(128, 128, 128, 0.3);
+}
+.nav-logo {
+  width: auto;
+
+  margin-top: 1.7%;
+  margin-left: 5%;
+}
+.container-middle {
+  display: fit-content;
+}
+span {
+  color: GREY;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 30px;
+  display: inline-block;
+  position: relative;
+  width: 150px;
+  top: 110px;
+  text-align: right;
+  font-weight: bold;
+}
+#title {
+  color: white;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 30px;
+  display: inline-block;
+  width: 500px;
+  position: relative;
+  top: 110px;
+  margin-left: 10px;
+  letter-spacing: 10px;
+}
+.container-middle img {
+  display: block;
+  position: relative;
+  top: 100px;
+  margin-left: 150px;
+}
+#nav-bar-2 {
+  display: block;
+  margin-left: 1080px;
+  width: 460px;
+  position: relative;
+  top: 100px;
+}
+#nav-bar-2 ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: 1.6rem;
+  margin-top: 30px;
+  margin-left: 0;
+  color: #d0d6f9;
+  text-align: left;
+}
+#nav-bar-2 li {
+  display: inline-block;
+  text-align: left;
+  padding-left: 15px;
+  height: 63px;
+  border-width: 5px;
+  border-radius: 5px;
+}
+#nav-bar-2 a {
+  text-decoration: none;
+  color: #d0d6f9;
+  padding-right: 40px;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 28px;
+}
+#title-main {
+  color: white;
+  font-size: 130px;
+  font-family: "Bellefair", serif;
+  display: block;
+  margin-left: 1130px;
+  margin-bottom: 0px;
+  width: 20%;
+  top: -460px;
+  position: relative;
+}
+.content {
+  color: #d0d6f9;
+  font-family: "Barlow Condensed", sans-serif;
+  text-align: left;
+  display: block;
+  margin: 1% 0 0 0;
+  font-size: 30px;
+  width: 509px;
+  height: 70px;
+  margin-left: 1140px;
+  top: -480px;
+  position: relative;
+}
+#content-hr {
+  width: 500px;
+  left: 370px;
+  top: -330px;
+  position: relative;
+  border-color: rgb(128, 128, 128, 0.7);
+}
+.final-table {
+  position: relative;
+  left: 1140px;
+  top: -300px;
+}
+.final-table tr {
+  text-align: left;
+}
+.final-table .heading {
+  color: #d0d6f9;
+  font-size: 15px;
+  padding-right: 160px;
+  letter-spacing: 5px;
+  font-family: "Barlow Condensed", sans-serif;
+}
+.final-table .table-content {
+  font-size: 30px;
+  color: white;
+  font-family: "Bellefair", serif;
+}
+#nav-bar-2 li:hover {
+  border-bottom: 1px solid;
+  border-width: 5px;
+  border-radius: 5px;
+  color: rgb(128, 128, 128, 0.8);
+}
+#nav-bar-2 .active {
+  border-bottom: 1px solid;
+  border-color: white;
+  border-width: 5px;
+  border-radius: 5px;
+}
+@media only screen and (min-width: 1280px) {
+  body {
+    zoom: 75%;
+  }
+  #content-hr {
+    width: 500px;
+    left: 380px;
+    top: -330px;
+    position: relative;
+    border-color: rgb(128, 128, 128, 0.7);
+  }
+}
+@media only screen and (min-width: 1920px) {
+  body {
+    zoom: 1;
+    background-image: url("../assets/destination/background-destination-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+  #content-hr {
+    width: 500px;
+    left: 440px;
+    top: -330px;
+    position: relative;
+    border-color: rgb(128, 128, 128, 0.7);
+  }
+  #nav-bar-2 {
+    display: block;
+    margin-left: 1080px;
+    width: 460px;
+    position: relative;
+    top: 30px;
+  }
+  #title-main {
+    top: -500px;
+  }
+}
